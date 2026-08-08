@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Planned",
+    "slug": "planned-bit-crew",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/planned-default-icon.png",
+    "scheme": "planned-bit-crew",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "icon": {
+        "light": "./assets/images/ios/planned-Icon-iOS-Default-1024x1024@1x.png",
+        "dark": "./assets/images/ios/planned-Icon-iOS-Dark-1024x1024@1x.png"
+      },
+      "bundleIdentifier": "com.bitcrew.planned"
+    },
+    "android": {
+      "icon" : "./assets/images/planned-default-icon.png",
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android/ic_launcher_foreground.png",
+        "backgroundImage": "./assets/images/android/ic_launcher_background.png",
+        "monochromeImage": "./assets/images/android/ic_launcher_monochrome.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.bitcrew.planned"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-notifications",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/planned-splash.png",
+          "imageWidth": 700,
+          "resizeMode": "contain",
+          "backgroundColor": "#000000"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}

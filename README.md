@@ -71,7 +71,7 @@ Backend:
 Testing:
 + Backend: pytest, httpx
 
-## Backend Architecture
+## Calendar UI Screenshot
 
 <p align="center">
     <img src="media/1.jpeg">

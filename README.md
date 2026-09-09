@@ -74,5 +74,5 @@ Testing:
 ## Backend Architecture
 
 <p align="center">
-    <img src="media/1.png">
+    <img src="media/1.jpeg">
 </p>

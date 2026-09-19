@@ -1,6 +1,12 @@
 # Calendar-Based Task Tracker
 This app is a cross-platform AI-powered task and schedule manager that helps users organize activities, manage folders, and generate optimized schedules using smart automation. It features secure user authentication, interactive calendar views, push notifications, and a modern mobile interface, allowing users to efficiently plan, track, and receive reminders for their daily tasks—all backed by a robust Python FastAPI backend and a React Native frontend.
 
+## Calendar UI Screenshot
+
+<p align="center">
+    <img src="media/1.jpeg">
+</p>
+
 ## Overview
 Core Features:
 + Activity Management
@@ -70,9 +76,3 @@ Backend:
 
 Testing:
 + Backend: pytest, httpx
-
-## Calendar UI Screenshot
-
-<p align="center">
-    <img src="media/1.jpeg">
-</p>
